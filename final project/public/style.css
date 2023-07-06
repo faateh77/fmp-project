@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+p{
+    margin-bottom: 0rem !important;
+}
+i#close {
+    display: none;
+}
+.site-subheading,.heading{
+    color:#4A5265
+}
+.navbar {
+    width: 50% !important;
+}
+i#hamburger {
+    display: none;
+}
+/*Header*/
+header{
+    z-index: 20;
+}
+.site-para{
+    color: #A2A2A2;
+}
+.header.icon-box{
+    width: 45px;
+    height: 45px;
+    padding: 13px 0px;
+}
+.header-icon-box-parent {
+    background: #559ad1;
+    width: 56px;
+    height: 56px;
+    box-sizing: border-box;
+    border-radius: 103px;
+    padding: 6px 0px;
+}
+a{
+    text-decoration: none !important;
+}
+ul.nav-menu{
+    list-style-type: none;
+}
+ul.nav-menu li{
+    padding: 0px 10px;
+}
+.team-box img {
+    height: 225px ;
+}
+/*Banner*/
+.banner{
+    background: url('images/bg3-VFBFAPL-1.png') no-repeat center;
+    background-size: cover;
+}
+.overlay{
+    background-color: #548affc9;
+}
+a.banner-btn{
+    background-color: transparent;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 45px;
+    text-align: center;
+    padding: 9px 0px;
+    width: 25%;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+section.banner img {
+    width: 80%;
+}
+.banner-form {
+    padding: 3% 20px;
+    border-radius: 25px;
+}
+a.site-btn{
+    background-color: #FC043C;
+    box-sizing: border-box;
+    height: 50px;
+    text-align: center;
+    padding: 9px 0px;
+    width: 25%;
+    border-radius: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.banner .overlay{
+    padding: 10% 0% 3% 0%;
+}
+.banner .input-box input {
+    background: #ededed;
+    width: 94%;
+    border: 1px solid #ededed;
+    height: 55px;
+    border-radius: 30px;
+    margin: 5% 0%;
+    padding: 0% 10%;
+    font-size: 16px;
+}
+.banner-form input[type="submit"] {
+    color: white;
+    background: #FC043C;
+}
+/*About*/
+.about img{
+    border-radius: 20px;
+}
+.border-bottom{
+    border-bottom: 2px solid #100f0f;
+}
+.about-div{
+    width: 15% !important;
+    border-radius: 25px;
+    transition: 0.5s ease-in-out;
+}
+.about-div:hover {
+    box-shadow: 2px 0px 6px 3px #100f0f28;
+}
+/*Services*/
+.services{
+    background: url('images/bg3-VFBFAPL-1.png') center no-repeat blue;
+    background-size: cover;
+}
+.overlay{
+    background-color: #548affc9;
+}
+.services a{
+    border-radius: 0px;
+    width: 15%;
+}
+/*Book Your Appointment With Us*/
+.icon-box {
+    background: #F82A58;
+    border-radius: 47px;
+    width: 77px;
+    padding: 18px 0px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.get-appointment-with-us img {
+    border-radius: 20px;
+}
+/*Footer*/
+footer{
+    background: url('images/bg2-VFBFAPL.png') center no-repeat;
+    background-size: cover;
+}
+footer ul li{
+    color: #A2A2A2;
+}
+.footer-overlay {
+    background-color: #2b3141e0;
+}
+.footer-border{
+    border-top: 1px solid #FFFFFF7D;
+}
+.footer-icon{
+    width: 50px;
+    height: 50px;
+    padding: 15px 0px;
+    margin: 0px 7px;
+    box-sizing: border-box;
+    border-radius: 60px;
+    border:1px solid #A2A2A2;
+}
+.footer-icon i{
+    color: #F82A58;
+}
+/******************************Contact Page****************************************/
+section#contact .overlay {
+    padding: 12% 0% 8% 0%;
+}
+.pink-text{
+    color: #F82A58;
+}
+.contact-box  {
+    border-radius: 25px;
+}
+.contact-box .icon-box{
+    width: 60px;
+    bottom: 85%;
+    height: 60px;
+}
+.contact-form iframe{
+    width: 100%;
+    height: 600px;
+}
+.contact-form .input-box{
+    width: 100%;
+}
+.contact-form .input-box input {
+    width: 100%;
+    background: #f3f3f3;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 0px 15px;
+}
+.contact-form .input-box textarea{
+    width: 100%;
+    background: #f3f3f3;
+    outline: none;
+    border-radius: 6px;
+    border: none;
+    margin: 10px 0px;
+    height: 100px;
+    padding: 0px 15px;
+}
+/*****************************Services******************************************/
+.services-page{
+    background: url('images/bg2-VFBFAPL.png') no-repeat center;
+    background-size: cover;
+}
+.services-overlay{
+    background-color: #0d00ff29;
+}
+.services-page a{
+    border-radius: 6px;
+    height: 20px;
+}
+#services-page-appointment{
+    background-color: #548BFF;
+}
+/**************************About Us*********************************************/
+.our-beliefs .site-btn{
+    width: 12%;
+    border-radius: 40px !important;
+}
+/*Doctor's Single Page*/
+.doctor-bg,.popup{
+    background: url('images/bg3-VFBFAPL-1.png') no-repeat center;
+    background-size: cover;
+}
+.doctor-bg .overlay img{
+    border-radius: 45px;
+}
+/****Pop UP******/
+.popup{
+    z-index: 11;
+    transition: 1.5s ease-in-out;
+}
+#pop-height{
+    height: 100vh;
+    padding: 10% 0%;
+}
+.popup h1{
+    font-size: 140px;
+    transition: 0.5s;
+    width: 50%;
+    font-weight: 800;
+    line-height: 120px;
+}
+@media only screen and (max-width: 767px) {
+.nav-doc-contact{
+    display: none;
+}
+i#hamburger {
+    display: block;
+    position: absolute;
+    right: 15px;
+    color: #fff;
+    font-size: 25px;
+}
+ul#menu {
+    position: absolute;
+    background-color: #fff;
+    top: 30px;
+    text-align: center;
+    display: none !important;
+    left: 0;
+    flex-direction: column;
+}
+ul#menu li{
+    padding: 10px 0px;
+}
+ul#menu li a{
+    color: black !important;
+    text-align: center;
+}
+.about-div {
+    width: 85% !important;
+    margin: 3% auto;
+    display: table !important;
+}
+footer img {
+    margin: auto;
+    display: block;
+}
+.navbar{
+    position: relative;
+}
+a.site-btn {
+    height: 45px;
+    padding: 9px 0px;
+    width: 60%;
+}
+.services a {
+    width: 35%;
+    height: 45px;
+}
+.icon-box {
+    width: 50px;
+    height: 50px;
+}
+.team-box img {
+    height: 400px ;
+}
+section#contact .overlay {
+    padding: 20% 0% 10% 0%;
+}
+.banner .overlay {
+    padding: 30% 0% 3% 0%;
+}
+section.contact-form form .d-flex {
+    flex-direction: column ;
+}
+section.contact-section {
+    padding: 0px 20px;
+}
+.contact-box {
+    margin: 55px 0px;
+}
+.banner h1 {
+    font-size: 25px;
+}
+#heading {
+    font-size: 28px !important;
+}
+.banner-enquiry-form {
+    flex-direction: column;
+    align-items: unset !important;
+}
+.banner-form input[type="submit"] {
+    width: 134px;
+    height: 45px;
+}
+.service-box {
+    margin: 10px 0px;
+}
+.navbar{
+    width: 100% !important;
+}
+i#close {
+    display: block;
+}
+}
